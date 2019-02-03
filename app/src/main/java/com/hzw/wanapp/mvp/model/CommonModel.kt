@@ -1,5 +1,7 @@
-package com.hzw.wanapp.mvp.base
+package com.hzw.wanapp.mvp.model
 
+import com.hzw.wanapp.mvp.base.BaseModel
+import com.hzw.wanapp.mvp.contract.CommonContract
 import com.hzw.wanapp.mvp.bean.HttpResult
 import com.hzw.wanapp.net.http.RetrofitHelper
 import io.reactivex.Observable

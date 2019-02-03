@@ -1,6 +1,5 @@
 package com.hzw.wanapp.mvp.contract
 
-import com.hzw.wanapp.mvp.base.CommonContract
 import com.hzw.wanapp.mvp.bean.Article
 import com.hzw.wanapp.mvp.bean.ArticleResponseBody
 import com.hzw.wanapp.mvp.bean.Banner

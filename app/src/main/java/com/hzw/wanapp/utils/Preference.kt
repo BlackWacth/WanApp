@@ -90,6 +90,4 @@ class Preference<T>(private val name: String, private val default: T) {
         byteArrayOutputStream.close()
         return serStr
     }
-
-
 }

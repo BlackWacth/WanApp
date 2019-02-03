@@ -1,6 +1,5 @@
 package com.hzw.wanapp.mvp.model
 
-import com.hzw.wanapp.mvp.base.CommonModel
 import com.hzw.wanapp.mvp.bean.Article
 import com.hzw.wanapp.mvp.bean.ArticleResponseBody
 import com.hzw.wanapp.mvp.bean.Banner

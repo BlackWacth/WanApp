@@ -1,5 +1,8 @@
-package com.hzw.wanapp.mvp.base
+package com.hzw.wanapp.mvp.contract
 
+import com.hzw.wanapp.mvp.base.IModel
+import com.hzw.wanapp.mvp.base.IPresenter
+import com.hzw.wanapp.mvp.base.IView
 import com.hzw.wanapp.mvp.bean.HttpResult
 import io.reactivex.Observable
 
@@ -11,7 +14,8 @@ interface CommonContract {
         fun showCancelCollectSucdess(success: Boolean)
     }
 
-    interface Presenter<in V : View> : IPresenter<V> {
+    interface Presenter<in V : View> :
+        IPresenter<V> {
         fun addCollectArticle(id: Int)
 
         fun cancelCollectArticle(id: Int)

@@ -57,7 +57,7 @@ data class Article(
     val userId: Int,
     val visible: Int,
     val zan: Int,
-    val top: String
+    var top: String
 )
 
 data class Tag(
